@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header span {
+    margin: 0 15px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.header span:hover {
+    color: #007bff;
+}
+
+.register-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-link {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.login-link a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Màn hình đăng ký</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <span>Home</span>
+        <span>Đăng nhập</span>
+        <span>Đăng ký</span>
+    </div>
+    <div class="register-container">
+        <h2>Màn hình đăng ký</h2>
+        <form>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="input-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Nhập lại mật khẩu</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="login-link">
+                <a href="#">Đã có tài khoản</a>
+            </div>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Lập trình web @01/2024</p>
+    </div>
+</body>
+</html>
+</body>
+</html>
